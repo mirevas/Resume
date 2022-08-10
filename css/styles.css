@@ -22,3 +22,10 @@ h1,h3 {
   text-decoration: none;
   color: #3BACB6;
 }
+
+.footer {
+  margin: 50px auto;
+  text-align:center;
+  color: gray;
+  opacity: 0.5;
+}
