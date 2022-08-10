@@ -1,96 +1,121 @@
 <!DOCTYPE html>
-<!-- docs.emmet.io -->
-<!-- unicode-table.com -->
 <html lang="en" dir="ltr">
 
 <head>
   <meta charset="utf-8">
   <title>💗Aurora's Personal Site</title>
+  <link rel="icon" href="favicon.ico">
   <link rel="stylesheet" href="css/styles.css">
 </head>
 
 <body>
-  <center>
-    <img src="images/aurora-modified.png" alt="Aurora profile picture" width="100" height="100">
-    <h1>Zhangluo(Aurora) Zhang</h1>
-    <p>
-      Jersey City, NJ, 07310 | (718)679-6059 |
-      <a href="mailto:aaaurorastan@gmail.com?subject=No Subject">Email</a>
-      | <a href="https://www.linkedin.com/in/zhangluo-zhang-b12257218/">Linkedin</a>
-      | <a href="https://github.com/mirevas">Github</a>
-      | <a href="version2.html">Version2</a>
-    </p>
-    <form class="" action="contact-me.html" method="post">
-      <em>I'll graduate in December 2022, and I'm actively seeking full time <strong>SDE</strong> job 💗 </em>
-      <input type="submit" name="" value="CONTACT ME"><br>
-    </form>
-  </center>
-
+  <section class="intro">
+    <center>
+      <img src="images/aurora-modified.png" alt="Aurora profile picture" width="100" height="100">
+      <h1>Zhangluo(Aurora) Zhang</h1>
+      <p>
+        Jersey City, NJ, 07310 | (718)679-6059 |
+        <a href="mailto:aaaurorastan@gmail.com?subject=No Subject">Email</a>
+        | <a href="https://www.linkedin.com/in/zhangluo-zhang-b12257218/">Linkedin</a>
+        | <a href="https://github.com/mirevas">Github</a>
+        | <a href="./version2.html">Version2</a>
+      </p>
+      <form class="" action="contact-me.html" method="post">
+        <em>I'll graduate in December 2022, and I'm actively seeking full time <strong>SDE</strong> job 💗 </em>
+        <input type="submit" name="" value="CONTACT ME"><br>
+      </form>
+      <p style="color: grey">Last updated time: August 9, 2022</p>
+    </center>
+  </section>
   <br>
+  
   <hr>
-  <h3>EDUCATION</h3>
-  <h4><strong>New York University Tandon School of Engineering</strong></h4>
-  <p><em>Master's in Computer Engineering</em></p>
-  <h4><strong>Xiamen University Malaysia</strong></h4>
-  <p><em>Bachelor of Engineering in Computer Science and Technology</em></p>
-  <br>
-
+  <section class="education">  
+    <h3>EDUCATION</h3>
+    <h4><strong>New York University Tandon School of Engineering</strong></h4>
+    <p><em>Master's in Computer Engineering</em></p>
+    <h4><strong>Xiamen University Malaysia</strong></h4>
+    <p><em>Bachelor of Engineering in Computer Science and Technology</em></p>
+    <br>
+  </section>
+  
   <hr>
-  <h3>PROJECTS</h3>
-  <h4 style="text-aline: left"><strong>Project of Java: Dormitory Management System</strong></h4>
-  <ul>
-    <li>Login/register feature: login as SysAdmin or DormAdmin; register for a DormAdmin</li>
-    <li>DormAdmin: add new student absences record and view all absence records</li>
-    <li>SysAdmin: manage (CRUD) DormAdmin, students, dormitory buildings, dormitory rooms; view records</li>
-    <li>Use <strong>MVC</strong> architecture pattern</li>
-    <li>Tools and Technologies used: <strong>JSP, Bootstrap, Servlet, Tomcat, JDBC API, MySQL</strong></li>
-  </ul>
+  <section class="experience">
+    <h3>EXPERIENCE</h3>
+    <p><strong>Software Engineering Intern</strong>, Experian, Costa Mesa, CA</p>
+    <ul>
+      <li>Learned <strong>Agile</strong> software development process, <strong>scrum</strong>, and tools like <strong>Confluence</strong>, <strong>Bitbucket</strong>, <strong>Jenkins</strong>, <strong>Jira</strong></li>
+      <li>Learned <strong>AWS</strong> fundamental knowledge, like introduction of IAM, introduction and creation of S3</li>
+      <li>Learned <strong>Terraform</strong> basics(AWS specific), how to use terraform to create EC2, S3</li>
+    </ul>
+    <p><strong>Software Engineering Intern</strong>, Huada Empyrean Software Co., Ltd, Chengdu, China</p>
+    <ul>
+      <li>Analyze failed regression cases by using <strong>git</strong></li>
+      <li>Be familiar with <strong>Linux</strong> environment, <strong>vim</strong> text editor</li>
+      <li>Write scripts to optimize data batch processing by using <strong>Python</strong></li>
+    </ul>
 
-  <h4><strong>Project of Java: Cinema Room REST Service</strong></h4>
-  <ul>
-    <li>Allow customers to purchase, refund tickets which of them has unique token</li>
-    <li>Add the movie theater statistics and secure the endpoint with a password</li>
-    <li>Tools and Technologies used: <strong>Gradle, SpringBoot, REST</strong></li>
-  </ul>
-
-  <h4><strong>Project of Python: Implement A Specific Website Crawler</strong></h4>
-  <ul>
-    <li>Check and analyze the website address and the target label</li>
-    <li>Use <strong>Request</strong> library to get website, use <strong>BeautifulSoup</strong> library to pull data out of HTML files</li>
-    <li>Response status code 418: Solved by downloading delay and randomly choosing user agent from user agent pool</li>
-    <li>Download requested data set from a series websites and use multithreading to improve speed by about 90%</li>
-  </ul>
-
-  <h4><strong>Project of Java: A program to simulate the function of ATM machine</strong></h4>
-  <ul>
-    <li>Designed and developed an ATM machine with the functions of depositing money, withdrawing money, querying balance and interest rate, etc.</li>
-    <li>Strengthened my Java programming skills and cooperation ability</li>
-  </ul>
-  <br>
+    <p><strong>Research Assistant</strong>, China Electric Power Research Institute, Beijing, China</p>
+    <ul>
+      <li>Studied and applied <strong>Python</strong> in dealing with data, learned web crawler techniques</li>
+      <li>Read papers on big data, such as its analytic processing techniques, its application in marketing ad decision-making and privacy protection for security issues</li>
+    </ul>
+    <br>
+  </section>
 
   <hr>
-  <h3>EXPERIENCE</h3>
-  <p><strong>Software Engineering Intern</strong>, Huada Empyrean Software Co., Ltd, Chengdu, China</p>
-  <ul>
-    <li>Analyze failed regression cases by using <strong>git</strong></li>
-    <li>Be familiar with <strong>Linux</strong> environment, <strong>vim</strong> text editor</li>
-    <li>Write scripts to optimize data batch processing by using <strong>Python</strong></li>
-  </ul>
+  <section class="projects">
+    <h3>PROJECTS</h3>
+    <h4><strong>Web Application Development: Dormitory Management System (Java)</strong></h4>
+    <ul>
+      <li>Achieved login and register features: login as SysAdmin or DormAdmin; register for a DormAdmin</li>
+      <li>Implemented functions for DormAdmin: add new student absences record and view all absence records</li>
+      <li>Implemented functions for SysAdmin: manage (CRUD) DormAdmin, students, buildings, rooms; view records</li>
+      <li>Built by using <strong>MVC</strong> architecture pattern</li>
+      <li>Tools and Technologies used: <strong>JSP, Bootstrap, Servlet, Tomcat, JDBC API, MySQL</strong></li>
+    </ul>
+    
+    <h4><strong>Cinema Room REST Service (Java)</strong></h4>
+    <ul>
+      <li>Implemented ticket purchase and refund functions, and the ticket has a unique token</li>
+      <li>Added the movie theater statistics and secured the endpoint with a password</li>
+      <li>Tools and Technologies used: <strong>Gradle, SpringBoot, REST</strong></li>
+    </ul>
 
-  <p><strong>Research Assistant</strong>, China Electric Power Research Institute, Beijing, China</p>
-  <ul>
-    <li>Read papers on big data, such as its analytic processing techniques, its application in marketing ad decision-making and privacy protection for security issues</li>
-    <li>Studied and applied Python in dealing with data, learned web crawler techniques</li>
-  </ul>
-  <br>
+    <h4><strong>Final Project of Machine Learning: Adult Incoming Prediction (Python)</strong></h4>
+    <ul>
+      <li>Completed data pre-processing, feature engineering, standardization</li>
+      <li>Used <strong>Random Forest</strong> model, <strong>AdaBoost</strong> model, <strong>XGBoost</strong> model to training (parameter turning)</li>
+      <li>Evaluated models evaluation by comparing <strong>accuracy, recall, precision and F1 Score</strong></li>
+      <li>Obtained the best classifier, XGBoost, which increased accuracy from 0.865 to 0.87, recall from 0.61 to 0.64</li>
+    </ul>
+
+    <h4><strong>Final Project of Real Time Embedded System Design: “ The Need for Speed”</strong></h4>
+    <ul>
+      <li>Use STM32F429 discovery board as a wearable device to measure the walking distance</li>
+      <li>Read angular rate data from the gyroscope of the board</li>
+      <li>Experimented many times to find a parameter Ɛ to reduce the error</li>
+    </ul>
+
+    <h4><strong>A Specific Website Crawler (Python)</strong></h4>
+    <ul>
+      <li>Checked and analyzed the website address and the target label</li>
+      <li>Used <strong>Request</strong> library to get website, used <strong>BeautifulSoup</strong> library to pull data out of HTML files</li>
+      <li>Solved response status code 418: downloading delay and randomly choosing user agent from user agent pool</li>
+      <li>Downloaded requested data set from a series websites and used multithreading to improve speed by about 90%</li>
+    </ul>
+    <br>
+  </section>
 
   <hr>
-  <h3>SKILLS & ADDITIONAL INFORMATION</h3>
-  <ul>
-    <li><strong>Programming Languages: </strong>Java, Python, HTML/CSS, C</li>
-    <li><strong>Techniques/Frameworks: </strong>Git, Spring, MySQL, Maven</li>
-    <li><strong>Interests: </strong>Education, Business, Machine Learning, Business, Artificial Intelligence</li>
-  </ul>
+  <section class="skills">
+    <h3>SKILLS & ADDITIONAL INFORMATION</h3>
+    <ul>
+      <li><strong>Programming Languages: </strong>Java, Python, HTML/CSS, C</li>
+      <li><strong>Techniques/Frameworks: </strong>Git, Spring, MySQL, Maven</li>
+      <li><strong>Interests: </strong>Education, Business, Machine Learning, Business, Artificial Intelligence</li>
+    </ul>
+  </section>
 
 </body>
 
