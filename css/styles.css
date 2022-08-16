@@ -16,6 +16,7 @@ h1,h3 {
 
 .education, .experience, .projects, .skills, .contact-me, .intro { 
   margin-left: 15%;
+  margin-right: 15%;
 }
 
 .button {
